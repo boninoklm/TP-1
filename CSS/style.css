@@ -1,0 +1,112 @@
+/* contour de page */
+body {
+  border: 14px solid;
+  height: 100%;
+  border-image: linear-gradient(rgb(30, 147, 244), black, black, red) 1;
+  margin: 0;
+}
+
+/* squelette */
+table {
+  width: 100%;
+  height: 100%;
+  border-collapse: collapse;
+}
+
+/* Titre de page */
+.titre {
+  height: 34px;
+  font-size: 24px;
+  text-align: center;
+  color: aliceblue;
+  background-color: black;
+  font-family: 'Arial Narrow Bold', sans-serif;
+}
+
+/* synopsis */
+.headline {
+  font-family: Impact, 'Arial Narrow Bold', sans-serif;
+  font-size: large;
+  height: 34px;
+  padding-left: 6px;
+}
+
+/* synopsis interrieur */
+.texte {
+  padding-left: 6px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* affiche du film */
+img {
+  width: 100%;
+  height: auto;
+}
+
+/* distribution */
+.distribution {
+  background-color: rgb(11, 57, 103);
+  color: aliceblue;
+  padding-left: 6px;
+  font-family: 'Arial Narrow Bold', sans-serif;
+}
+
+/* photo des acteur */
+.photoActeur {
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+  border-radius: 40px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+/* list acteur et personnage */
+.rien {
+  padding-left: 0px;
+  list-style-type: none;
+}
+
+/* nom acteur */
+.acteur {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* nom personnage bleu */
+.personnageBleu {
+  font-style: italic;
+  color: rgb(44, 171, 234);
+}
+
+/* nom personnage vert */
+.personnageVert {
+  font-style: italic;
+  color: rgb(10, 215, 41);
+}
+
+/* nom personnage rouge */
+.personnageRouge {
+  font-style: italic;
+  color: red;
+}
+
+/* nom personnage gris */
+.personnageSans {
+  font-style: italic;
+  color: gray;
+}
+
+/* tête de list */
+.headline2 {
+  font-weight: bold;
+  font-size: 20px;
+  padding-left: 6px;
+}
+
+/* autres films */
+.list {
+  list-style: disc;
+  padding-left: 30px;
+}
